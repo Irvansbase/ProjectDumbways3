@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <style>
+        .icon {
+                width: 50px;
+                height:40px;
+             }
+
+                .width {
+                width: 500px;
+             }
+ 
+                .abu {
+                background-color: #D9DEE4;
+             }
+    </style>
+</head>
+<body class="abu">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid d-flex gap-5">
+          <a class="navbar-brand ms-5" href="#"><img src="/img/Logo.png" alt="" class="icon"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fs-5 fw-semibold" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item fs-5 fw-semibold">
+                <a class="nav-link" href="#">My Project</a>
+              </li>
+            </ul>
+            <form class="d-flex me-5" role="search">
+                <button type="button" class="btn btn-dark fw-semibold">Contact Me</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="d-flex justify-content-center align-items-center" style="height: 80vh;">
+        <div class="text-center">
+          <h1 class="mt-5 fw-bold mb-5">GET IN TOUCH</h1>
+          <div class="text-center">
+            <h5 class="text-start">Name</h5>
+            <form action=""><input type="text" class="form-control mb-3 shadow-sm width mb-4" id="nama"></form>
+            <h5 class="text-start">Email</h5>
+            <form action=""><input type="text" class="form-control mb-3 shadow-sm width mb-4" id="email"></form>
+            <h5 class="text-start">Phone Number</h5>
+            <form action=""><input type="text" class="form-control mb-3 shadow-sm width mb-4" id="phone"></form>
+            <h5 class="text-start">Subject</h5>
+            
+            <div class="input-group">
+                <select class="form-select mb-3 shadow-sm width mb-4 fw-bold" id="input" aria-label="Example select with button addon">
+                  <option selected></option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+
+            <h5 class="text-start">Your Message</h5>
+            <textarea class="form-control mb-3 shadow-sm width clean-input" rows="4"  style="resize: none;" id="message"></textarea>
+          </div>
+          <div class="w-100 text-end mt-5">
+            <button type="button" class="btn btn-dark fw-semibold rounded-pill border-0 ps-4 pe-4" onclick="getData(event)">submit</button>
+        </div>
+        </div>
+      </div>
+      
+      <script src="./script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+</html>

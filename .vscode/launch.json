@@ -1,0 +1,14 @@
+{
+    "formSubmissions": [
+        {
+            "name": "John Doe",
+            "email": "john@example.com",
+            "age": 25,
+            "role": "Student",
+            "citizenship": "wni",
+            "participation": "yes",
+            "programs": ["front-end", "back-end"],
+            "bio": "Seorang pengembang web pemula"
+        }
+    ]
+}
