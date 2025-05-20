@@ -13,29 +13,26 @@
                 width: 50px;
                 height:40px;
              }
-
-                .width {
-                width: 500px;
-             }
  
                 .abu {
                 background-color: #D9DEE4;
              }
 
              .white {
-              background-color: #fffff;
+              background-color: #ffff;
              }
 
              .card-img-top {
-                object-fit: cover;
-                width: 90%;   
-                height:0 auto;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding: 10px 10px;
-                border-radius: 10%;
-             }
+              max-width: 600px;
+              max-height: 520px;
+              object-fit: cover;
+              width: 90%;   
+              height: auto;
+              display: block;
+              margin: 0 auto;
+              padding: 10px;
+              border-radius: 10%;
+          }
 
     </style>
 </head>
@@ -133,21 +130,9 @@
         </div>
       </div>
 
-      <div class="d-flex justify-content-center w-25 h-100 white mt-5 ms-5" id="dom">
-        <div class="card" style="width: 18rem;">
-            <img src="/img/Logo.png" class="card-img-top mb-1 ms-1 me-1 mt-1 card-img-top" alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Judul Card</h5>
-                <p>2020</p>
-                <p class="card-text">Ini adalah deskripsi singkat dari card. Kamu bisa menggantinya dengan konten yang kamu inginkan.</p>
-                <div class="d-flex justify-content-center gap-2">
-                  <button class="w-50">edit</button>
-                  <button class="w-50">delete</button>
-              </div>
-                
-            </div>
-        </div>
-    </div>
+      <div class="dom-card d-flex justify-content-center w-auto white mt-5 gap-3" id="dom">
+        
+      </div>
     
 
       <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
